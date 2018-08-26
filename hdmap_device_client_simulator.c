@@ -4,7 +4,7 @@
 #include "MQTTAsync.h"
 
 
-#define ADDRESS                     "ssl://tremoteye.sktelecom.com:9900"
+#define ADDRESS                     "ssl://tremoteye.sktelecom.com:8883"
 #define CLIENTID                    "ExampleClientPub"					// There will be some guides
 #define RPC_REQ_TOPIC               "v1/sensors/me/rpc/request/+"
 #define SENDING_TOPIC               "v1/hdd/data/"
